@@ -62,7 +62,7 @@ REDIS_DH="$TLS_DIR/redis.dh"
 #   Prints usage information for the script.
 # -----------------------------------------------------------------------------
 usage() {
-    cat "$SCRIPT_DIR/usage.txt"
+    cat "$CONFIG_DIR/usage.txt"
 }
 
 # -----------------------------------------------------------------------------
